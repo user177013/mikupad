@@ -2669,7 +2669,7 @@ export function App() {
 						tooltipSize="short"
 						readOnly=${!!cancel}
 						value=${endpointAPIKey}
-						onValueChange=${setEndpointAPIKey}/>
+						onValueChange=${setEndpointAPIKey}/>`}
 				${endpointAPI == 3 && html`
 					<${InputBox} label="Model"
 						datalist=${openaiModels}
